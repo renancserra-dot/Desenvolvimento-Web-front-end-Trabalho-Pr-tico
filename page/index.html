@@ -1,54 +1,114 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Website</title>
     <!--Bootstrap CSS-->
-    <link rel="stylesheet" href="../assets/CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/CSS/bootstrap.min.css" />
     <!--Meu CSS-->
-    <link rel="stylesheet" href="../assets/CSS/style.css">
-</head>
-<body>
-
-<!--NAVBAR-->
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Ana Rita</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-link active" aria-current="page" href="#">Início</a>
-        <a class="nav-link" href="sobre-mim.html">Sobre mim</a>
-        <a class="nav-link" href="marcacoes.html">Marcações</a>
-        <a class="nav-link" href="contacto.html">Contacto</a>
+    <link rel="stylesheet" href="../assets/CSS/style.css" />
+  </head>
+  <body>
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="">Ana Rita</a>
+        <button
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="index.html"
+              >Início</a
+            >
+            <a class="nav-link" href="sobre-mim.html">Sobre mim</a>
+            <a class="nav-link" href="marcacoes.html">Marcações</a>
+            <a class="nav-link" href="contacto.html">Contacto</a>
+          </div>
+        </div>
       </div>
+    </nav>
+    <!--FIM DE NAVBAR-->
+
+    <!--HEADER-->
+    <header></header>
+    <!--FIM DE HEADER-->
+
+<div class="container mt-5">
+    <!--CAROUSEL-->
+<div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="..." class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="..." class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="..." class="d-block w-100" alt="...">
     </div>
   </div>
-</nav>
-<!--FIM DE NAVBAR-->
-
-<!--HEADER-->
-    <header>
-
-</header>
-<!--FIM DE HEADER-->
-
-    
-
-
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+    <!--FIM DE CAROUSEL-->
 
 
 
+
+
+
+
+
+
+
+
+</div>
+    <!--FOOTER-->
     <footer>
-
+      <div class="card">
+        <div class="card-body">
+          <figure>
+            <blockquote class="blockquote">
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto
+                a blanditiis aspernatur aperiam laudantium deserunt maiores
+                ratione recusandae, mollitia quis similique debitis explicabo
+                consequuntur. Possimus quo autem iste. Ab, dignissimos.
+              </p>
+            </blockquote>
+            <figcaption class="blockquote-footer">
+              &copy; 2026 Ana Rita Serra, Animal Assisted Therapist | BSc
+              Psychology - CESPU <cite title="Source Title"></cite>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
     </footer>
+    <!--FIM DE FOOTER-->
 
     <!--Bootstrap JS-->
     <script src="../assets/JS/bootstrap.bundle.min.js"></script>
     <!--Meu JS-->
     <script src="../assets/JS/main.js"></script>
-</body>
+  </body>
 </html>

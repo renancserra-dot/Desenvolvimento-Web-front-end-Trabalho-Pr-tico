@@ -1,44 +1,136 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Marcações</title>
     <!--Bootstrap CSS-->
-    <link rel="stylesheet" href="../assets/CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/CSS/bootstrap.min.css" />
     <!--Meu CSS-->
-    <link rel="stylesheet" href="../assets/CSS/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="../assets/CSS/style.css" />
+  </head>
+  <body>
     <!--NAVBAR-->
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Ana Rita</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-link active" aria-current="page" href="#">Início</a>
-        <a class="nav-link" href="sobre-mim.html">Sobre mim</a>
-        <a class="nav-link" href="marcacoes.html">Marcações</a>
-        <a class="nav-link" href="contacto.html">Contacto</a>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Ana Rita</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" href="index.html">Início</a>
+            <a class="nav-link" href="sobre-mim.html">Sobre mim</a>
+            <a class="nav-link active" aria-current="page" href="marcacoes.html"
+              >Marcações</a
+            >
+            <a class="nav-link" href="contacto.html">Contacto</a>
+          </div>
+        </div>
       </div>
+    </nav>
+    <!--FIM DE NAVBAR-->
+
+    <!--FORMULARIO-->
+    <div class="container mt-5">
+      <h2 class="mb-3">Marcação da sua Consulta</h2>
+      <p class="text-muted">
+        Para esclareceres qualquer dúvida sobre os nossos serviços de psicologia
+        online ou marcares a tua consulta online, deixa uma mensagem.
+      </p>
+
+      <form>
+        <div class="mb-3">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Nome"
+            name="nome"
+            required
+          />
+        </div>
+
+        <div class="mb-3">
+          <input
+            type="email"
+            class="form-control"
+            placeholder="Email"
+            name="email"
+            required
+          />
+        </div>
+
+        <div class="mb-3">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Assunto"
+            name="assunto"
+          />
+        </div>
+
+        <div class="mb-3">
+          <textarea
+            class="form-control"
+            rows="4"
+            placeholder="Deixe aqui a sua mensagem"
+            name="mensagem"
+          ></textarea>
+        </div>
+
+        <div class="form-check mb-3">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            id="consentimento"
+            name="consentimento"
+            required
+          />
+          <label class="form-check-label text-muted small" for="consentimento">
+            dou consentimento ao tratamento de dados:
+            <u>condições gerais e política de privacidade.</u>
+          </label>
+        </div>
+
+        <button type="submit" class="btn btn-custom">Enviar Mensagem</button>
+      </form>
     </div>
-  </div>
-</nav>
-<!--FIM DE NAVBAR-->
+    <!--FIM DO FORMULARIO-->
 
+    <!--FOOTER-->
+    <footer>
+      <div class="card">
+        <div class="card-body">
+          <figure>
+            <blockquote class="blockquote">
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto
+                a blanditiis aspernatur aperiam laudantium deserunt maiores
+                ratione recusandae, mollitia quis similique debitis explicabo
+                consequuntur. Possimus quo autem iste. Ab, dignissimos.
+              </p>
+            </blockquote>
+            <figcaption class="blockquote-footer">
+              &copy; 2026 Ana Rita Serra, Animal Assisted Therapist | BSc
+              Psychology - CESPU <cite title="Source Title">Source Title</cite>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </footer>
+    <!--FIM DE FOOTER-->
 
-
-
-
-
-
-
-     <!--Bootstrap JS-->
+    <!--Bootstrap JS-->
     <script src="../assets/JS/bootstrap.bundle.min.js"></script>
     <!--Meu JS-->
     <script src="../assets/JS/main.js"></script>
-</body>
+  </body>
 </html>
