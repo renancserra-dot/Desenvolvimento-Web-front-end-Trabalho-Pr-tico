@@ -18,6 +18,7 @@
     <link rel="shortcut icon" href="../assets/img/bluesky.favicon.svg" type="image/x-icon">
   </head>
   <body class="body-cor">
+
     <!--NAVBAR-->
     <div class="nav-cor">
     <nav class="navbar navbar-expand-lg">
@@ -44,6 +45,11 @@
             <a class="nav-link" href="servicos.html">Serviços</a>
             <a class="nav-link" href="marcacoes.html">Marcações</a>
             <a class="nav-link" href="contacto.html">Contacto</a>
+
+            <!--LIGHT E DARK MODE-->
+           
+
+
           </div>
         </div>
       </div>
@@ -51,11 +57,66 @@
   </div>
     <!--FIM DE NAVBAR-->
 
-    <!--HEADER-->
-    <header></header>
+   
     <!--FIM DE HEADER-->
-    <div class="main-cor">
-<main class="container-fluid px-5 my-5 shadow p-3 mb-5 rounded flex-grow-1">
+
+
+<main class="container shadow p-3 mb-5 rounded flex-grow-1">
+<div class="container mt-4">
+
+ <!--HEADER-->
+   
+ <!-- HEADER DE INÍCIO -->
+<!-- HEADER DE INÍCIO -->
+<header class="hero-section py-5 mb-5">
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        <h1 class="display-4 serif fw-bold mb-3" style="color: #D4A373;">
+          Onde o Cuidado e a Natureza se Encontram
+        </h1>
+        
+        <div class="header-divider mx-auto mb-4"></div>
+        
+        <p class="lead lora-italic px-lg-5 mb-4" style="color: #606c38; font-size: 1.25rem; line-height: 1.8;">
+          "Através da cumplicidade com os animais e do ritmo sereno da quinta, 
+          ajudamos cada criança a florescer, transformando a interação animal num 
+          poderoso caminho de descoberta e equilíbrio emocional."
+        </p>
+        
+        <!-- BOTÃO PARA O IFRAME (MODAL) -->
+        <button type="button" class="btn rounded-pill px-4 py-2 fw-bold shadow-sm" 
+                data-bs-toggle="modal" data-bs-target="#videoModal"
+                style="background-color: #CCD5AE; color: #606c38; border: none;">
+          <i class="bi bi-play-circle-fill me-2"></i>Veja aqui
+        </button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ESTRUTURA DO MODAL (Onde fica o vídeo) -->
+<div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content border-0 bg-transparent">
+      <div class="modal-header border-0 p-0 justify-content-end">
+        <button type="button" class="btn-close btn-close-white mb-2" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body p-0">
+        <div class="ratio ratio-16x9 shadow-lg">
+          <!-- SUBSTITUI O LINK ABAIXO PELO TEU LINK DE EMBED DO YOUTUBE -->
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/76Cq-6gHMlU?si=tXEJt0ukPEOkSYgz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>" 
+                  title="YouTube video player" 
+                  allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
 
     <!--CAROUSEL-->
 <div id="carouselExampleIndicators" class="carousel slide">
@@ -103,24 +164,58 @@
 </div>
     <!--FIM DE CAROUSEL-->
 
-    <!--Corpo da página-->
-    <div class="Corpo">
-      <br>
-      <hr>
-      <br>
-      <h5 class="title">Onde a Natureza e o Bem-Estar se Encontram</h5>
-      <p class="pr1 py-3">Bem-vindos à Animalia, um refúgio dedicado ao crescimento e ao equilíbrio emocional no coração da natureza. O nosso espaço nasce da convicção de que o contacto direto com o mundo rural e a interação genuína com os animais são ferramentas poderosas de transformação e cura. Aqui, oferecemos um ambiente seguro e tranquilo, onde cada recanto convida à serenidade e cada animal é um parceiro no processo de desenvolvimento de crianças e adultos.</p>
-      <br>
-      <br>
 
-      <h5 class="title">Terapias Assistidas e Intervenção de Proximidade</h5>
-      <p class="pr1 py-3">Os nossos serviços de intervenção e terapia são desenhados de forma personalizada, aliando o rigor técnico à sensibilidade que a mediação animal permite. Trabalhamos não apenas a reabilitação, mas também a estimulação sensorial, a gestão emocional e a autoconfiança. Seja através do cuidado com os nossos animais ou da vivência no ambiente da quinta, o objetivo é proporcionar experiências que deixem marcas positivas, promovendo a autonomia e a qualidade de vida.</p>
       <br>
+      <hr class="hr-cor">
       <br>
-      <h5 class="title">Um Espaço de Partilha e Descoberta</h5>
-      <p class="pr1 py-3">Mais do que um local de intervenção, a Animalia é uma quinta pedagógica pensada para aproximar as famílias da essência da vida no campo. Através das nossas atividades, promovemos o respeito pela biodiversidade e o fortalecimento de laços afetivos. Aqui, o tempo corre ao ritmo da natureza, permitindo que cada pessoa que nos visita possa desligar do quotidiano e redescobrir-se através da simplicidade e do afeto animal.</p>
-      
-      <!--FIM: Corpo da página-->
+      <!-- Seção 1: Introdução -->
+      <div class="mx-auto mb-5" style="max-width: 850px;">
+        <h2 class="serif fw-bold mb-3" style="color: #D4A373;">Onde a Natureza e o Bem-Estar se Encontram</h2>
+        <div class="hr-decorativa mx-auto mb-4"></div>
+        
+        <div class="content-text text-center">
+          <p class="pr1">
+            Bem-vindos à Animalia, um refúgio dedicado ao crescimento e ao equilíbrio emocional no coração da natureza. O nosso espaço nasce da convicção de que o contacto direto com o mundo rural e a interação genuína com os animais são ferramentas poderosas de transformação e cura. 
+          </p>
+          <p class="pr1">
+            Aqui, oferecemos um ambiente seguro e tranquilo, onde cada recanto convida à serenidade e cada animal é um parceiro no processo de desenvolvimento de crianças e adultos.
+          </p>
+        </div>
+      </div>
+
+      <!-- Seção 2: Terapias -->
+      <div class="mx-auto mb-5 pt-4" style="max-width: 850px;">
+        <h2 class="serif fw-bold mb-3" style="color: #D4A373;">Terapias Assistidas e Intervenção de Proximidade</h2>
+        <div class="hr-decorativa mx-auto mb-4"></div>
+        
+        <div class="content-text text-center">
+          <p class="pr1">
+            Os nossos serviços de intervenção e terapia são desenhados de forma personalizada, aliando o rigor técnico à sensibilidade que a mediação animal permite. Trabalhamos não apenas a reabilitação, mas também a estimulação sensorial, a gestão emocional e a autoconfiança. 
+          </p>
+          <p class="pr1">
+            Seja através do cuidado com os nossos animais ou da vivência no ambiente da quinta, o objetivo é proporcionar experiências que deixem marcas positivas, promovendo a autonomia e a qualidade de vida.
+          </p>
+        </div>
+      </div>
+
+      <!-- Seção 3: Espaço de Partilha -->
+      <div class="mx-auto mb-5 pt-4" style="max-width: 850px;">
+        <h2 class="serif fw-bold mb-3" style="color: #D4A373;">Um Espaço de Partilha e Descoberta</h2>
+        <div class="hr-decorativa mx-auto mb-4"></div>
+        
+        <div class="content-text text-center">
+          <p class="pr1">
+            Mais do que um local de intervenção, a Animalia é uma quinta pedagógica pensada para aproximar as famílias da essência da vida no campo. Através das nossas atividades, promovemos o respeito pela biodiversidade e o fortalecimento de laços afetivos. 
+          </p>
+          <p class="pr1">
+            Aqui, o tempo corre ao ritmo da natureza, permitindo que cada pessoa que nos visita possa desligar do quotidiano e redescobrir-se através da simplicidade e do afeto animal.
+          </p>
+        </div>
+      </div>
+
+    </div> <!-- Fim text-center -->
+  </div> <!-- Fim container mt-4 -->
+</main>
     
 <br>
       <!--REDES Socias-->

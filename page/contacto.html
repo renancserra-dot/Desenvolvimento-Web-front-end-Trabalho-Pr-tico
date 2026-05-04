@@ -47,51 +47,65 @@
   </nav></div>
   <!--FIM DE NAVBAR-->
 
-<main class="container shadow p-3 mb-5 rounded flex-grow-1">
-  <div class="row">
-    <div class="col-12 col-md-6 my-auto">
-      <br>
-      <div class="Mapa">
-      <h3 class="text-center">Onde nos pode encontrar</h3></div>
-      <br>
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3007.960653738646!2d-8.6013185!3d41.0698527!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd247bc8f554e113%3A0xc48fe67c21ced6a8!2sAnimalia%20World%20of%20Experiences!5e0!3m2!1spt-PT!2spt!4v1777477829190!5m2!1spt-PT!2spt"
-        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"></iframe>
+<main class="container shadow p-4 mb-5 rounded bg-white flex-grow-1">
+  <div class="row g-4 align-items-center">
+    
+    <!-- Coluna do Mapa -->
+    <div class="col-12 col-md-6">
+      <div class="p-2">
+        <h3 class="serif fw-bold text-center mb-3" style="color: #D4A373;">Onde nos pode encontrar</h3>
+        <div class="hr-decorativa mx-auto mb-4"></div>
+        
+        <!-- Mapa Responsivo (Rácio 4:3 para maior altura) -->
+        <div class="ratio ratio-4x3 shadow-sm rounded overflow-hidden" style="border: 2px solid #E9EDC9;">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3007.960653738646!2d-8.6013185!3d41.0698527!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd247bc8f554e113%3A0xc48fe67c21ced6a8!2sAnimalia%20World%20of%20Experiences!5e0!3m2!1spt-PT!2spt!4v1777477829190!5m2!1spt-PT!2spt"
+            style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
     </div>
-    <div class="col-12 col-md-6 text-center my-auto">
-      <div class="info">
-        <i class="bi bi-geo-alt"></i>
-        <br>
-        <p>
-          Rua Pereiras 52, 4410-258 Canelas
-        </p>
+
+    <!-- Coluna de Informações -->
+    <div class="col-12 col-md-6 text-center">
+      <div class="px-lg-5">
+        <h3 class="serif fw-bold mb-3" style="color: #D4A373;">Contactos</h3>
+        <div class="hr-decorativa mx-auto mb-5"></div>
+
+        <!-- Bloco: Morada -->
+        <div class="info-contact mb-4">
+          <div class="icon-circle mx-auto mb-2">
+            <i class="bi bi-geo-alt"></i>
+          </div>
+          <p class="content-text mb-0">Rua Pereiras 52, 4410-258 Canelas</p>
+        </div>
+
+        <!-- Bloco: Telefone -->
+        <div class="info-contact mb-4">
+          <div class="icon-circle mx-auto mb-2">
+            <i class="bi bi-telephone"></i>
+          </div>
+          <p class="content-text mb-0">222 333 444</p>
+        </div>
+
+        <!-- Bloco: Email -->
+        <div class="info-contact mb-4">
+          <div class="icon-circle mx-auto mb-2">
+            <i class="bi bi-envelope"></i>
+          </div>
+          <p class="content-text mb-0">geral@animalia.pt</p>
+        </div>
+
+        <!-- Bloco: Horário -->
+        <div class="info-contact mb-4">
+          <div class="icon-circle mx-auto mb-2">
+            <i class="bi bi-clock"></i>
+          </div>
+          <p class="content-text mb-0">2ª a Domingo: 10:00 - 18:00</p>
+        </div>
       </div>
-      
-      <div class="info">
-        <i class="bi bi-telephone"></i>
-        <br>
-        <p>222 333 444</p>
-      </div>
-     
-      <div class="info">
-        <i class="bi bi-envelope"></i>
-        <br>
-        <p>geral@animalia.pt</p>
-      </div>
-     
-      <div class="info">
-        <i class="bi bi-clock"></i>
-        <br>
-        <p>2ª a domingo: 10:00 - 18:00</p>
-      </div>
-      
-
-
-
-
-
-   
+    </div>
     <br>
     <br>
     <!--REDES Socias-->

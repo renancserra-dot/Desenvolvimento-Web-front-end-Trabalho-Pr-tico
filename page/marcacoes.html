@@ -48,75 +48,71 @@
     <!--FIM DE NAVBAR-->
 
 <main class="container shadow p-3 mb-5 rounded flex-grow-1">
+  <!-- TÍTULO-->
+<div class="text-center mb-4">
+  <h2 class="serif fw-bold mb-3" style="color: #D4A373;">Marcação da sua Consulta</h2>
+  <div class="hr-decorativa mx-auto"></div>
+</div>
+
+<p class="text-muted mx-auto" style="max-width: 700px;">
+  Para esclareceres qualquer dúvida sobre os nossos serviços de psicologia
+  ou marcares a tua consulta, deixa uma mensagem.
+</p>
 
     <!--FORMULARIO-->
-    <div class="container p-3 mt-5 flex-grow-1">
-      <h2 class="marcacao">Marcação da sua Consulta</h2>
-      <br>
-      <p class="text-muted">
-        Para esclareceres qualquer dúvida sobre os nossos serviços de psicologia
-        online ou marcares a tua consulta online, deixa uma mensagem.
-      </p>
 
-      <form>
-        <div class="mb-3">
-          <input
-            type="text"
-            class="form-control"
-            placeholder="Nome"
-            name="nome"
-            required
-          />
-        </div>
+<form id="appointmentForm" class="needs-validation" novalidate>
+  <div class="mb-3">
+    <input type="text" class="form-control" placeholder="Nome" name="nome" id="nome" required />
+    <div class="invalid-feedback text-start">Por favor, introduza o seu nome.</div>
+  </div>
 
-        <div class="mb-3">
-          <input
-            type="email"
-            class="form-control"
-            placeholder="Email"
-            name="email"
-            required
-          />
-        </div>
+  <div class="mb-3">
+    <input type="email" class="form-control" placeholder="Email" name="email" id="email" required />
+    <div class="invalid-feedback text-start">Introduza um email válido.</div>
+  </div>
 
-        <div class="mb-3">
-          <input
-            type="text"
-            class="form-control"
-            placeholder="Assunto"
-            name="assunto"
-          />
-        </div>
+  <div class="mb-3">
+    <input type="text" class="form-control" placeholder="Assunto" name="assunto" />
+  </div>
 
-        <div class="mb-3">
-          <textarea
-            class="form-control"
-            rows="4"
-            placeholder="Deixe aqui a sua mensagem"
-            name="mensagem"
-          ></textarea>
-        </div>
+  <div class="mb-3">
+    <textarea class="form-control" rows="4" placeholder="Deixe aqui a sua mensagem" name="mensagem" id="mensagem" required></textarea>
+    <div class="invalid-feedback text-start">Escreva uma breve mensagem sobre o motivo do contacto.</div>
+  </div>
 
-        <div class="form-check mb-3">
-          <input
-            class="form-check-input"
-            type="checkbox"
-            id="consentimento"
-            name="consentimento"
-            required
-          />
-          <label class="form-check-label text-muted small" for="consentimento">
-            Dou consentimento ao tratamento de dados:
-            <u>condições gerais e política de privacidade.</u>
-          </label>
-        </div>
+  <div class="form-check mb-3">
+    <input class="form-check-input" type="checkbox" id="consentimento" name="consentimento" required />
+    <label class="form-check-label text-muted small" for="consentimento">
+      Dou consentimento ao tratamento de dados: 
+      <a href="" class="text-decoration-underline">  condições gerais e política de privacidade.</a>
+    </label>
+    <div class="invalid-feedback text-start">É necessário aceitar para prosseguir.</div>
+  </div>
 
-        <button type="submit" class="btn btn-outline-primary">Enviar Mensagem</button>
-      </form>
-    </div>
-  </main>
+  <button type="submit" class="btn btn-outline-primary">Enviar Mensagem</button>
+</form>
     <!--FIM DO FORMULARIO-->
 
+<!--TOAST DO FORM-->
+
+<div class="toast-container position-fixed bottom-0 end-0 p-3">
+  <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="toast-header" style="background-color: #CCD5AE; color: #a1af71;">
+      <strong class="me-auto serif">Marcação de consulta</strong>
+      <small>Agora mesmo</small>
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <div class="toast-body">
+      Mensagem enviada com sucesso! Entraremos em contacto brevemente.
+    </div>
+  </div>
+</div>
+
+
+
+
+</main>
     <!--FOOTER-->
     <footer>
        <div class="card border-0 rounded-0">
