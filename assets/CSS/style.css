@@ -1,5 +1,95 @@
 .quoteRodape {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Lora;
     text-align: justify;
-    font-size:large;
+    font-size:medium;
+}
+
+.playwrite-dk-uloopet-guides-regular {
+  font-family: "Playwrite DK Uloopet Guides", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.head-sobre-mim {
+    font-family: Playwrite Danmark Uloopet Guides;
+}
+
+.experience {
+    font-family: Playwrite Danmark Uloopet Guides;
+    text-align: justify;
+}
+
+.p-sobre-mim {
+    font-family: Open Sans;
+    text-align: justify;
+    font-size: 14px;
+}
+
+.profissional {
+    font-family: Open Sans;
+    text-align: justify;
+    font-size: 14px;
+}
+
+.academica {
+    font-family: Open Sans;
+    text-align: justify;
+    font-size: 14px;
+}
+
+.title {
+    font-family: Playwrite Danmark Uloopet Guides;
+    text-align: justify;
+}
+
+.pr1 {
+    font-family: Open Sans;
+    text-align: justify;
+}
+
+.Mapa {
+    font-family: Playwrite Danmark Uloopet Guides;
+    text-align: justify;
+}
+
+.nav-cor {
+    background-color: #FAEDCD;
+    font-family: Lora;
+}
+
+cores {
+    color: #CCD5AE;
+    color: #E9EDC9;
+    color: #FEFAE0;
+    color: #FAEDCD;
+    color: #D4A373;
+}
+
+.card {
+    background-color: #FAEDCD;
+}
+
+.marcacao {
+     font-family: Playwrite Danmark Uloopet Guides;
+    text-align: justify;
+}
+
+.info {
+    font-family: Lora;
+    color: #80943f;
+    font-size: 18px;
+}
+
+.nav-link {
+    color: #80943f;
+}
+
+.btn {
+    color: #80943f;
+    border-color: #80943f;
+    outline: #80943f;
+}
+
+.bi {
+    color: #80943f;
 }
